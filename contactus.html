@@ -24,22 +24,25 @@
         </div>
     </nav>
     <section class="photo-gallery py-4 py-xl-5">
-        <div class="container-fluid p-0">
-            <div class="row g-0 mb-5">
-                <div class="col-md-8 col-xl-6 text-center mx-auto">
-                    <h2>PokeLayerCards!</h2>
-                    <p class="w-lg-50">We are a Utah based Hobby Shop supplying all your trading card needs!</p>
+        <section class="position-relative py-4 py-xl-5">
+            <div class="container position-relative">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-8 col-lg-6 col-xl-5 col-xxl-4">
+                        <div class="card mb-5">
+                            <div class="card-body p-sm-5">
+                                <h2 class="text-center mb-4">Contact us</h2>
+                                <form data-bss-recipient="d7f56d5328867f417f6522dfbf47e51a">
+                                    <div class="mb-3"><input class="form-control" type="text" id="name-2" name="name" placeholder="Name"></div>
+                                    <div class="mb-3"><input class="form-control" type="email" id="email-2" name="email" placeholder="Email"></div>
+                                    <div class="mb-3"><textarea class="form-control" id="message-2" name="message" rows="6" placeholder="Message"></textarea></div>
+                                    <div><button class="btn btn-dark d-block w-100" type="submit">Send </button></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row g-0 row-cols-1 row-cols-md-2 row-cols-xl-3 photos" data-bss-baguettebox="">
-                <div class="col item"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/PokemonGO.jpeg"></a></div>
-                <div class="col item"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/EgyptianGodDeckSlifertheSkyDragon.jpeg"></a></div>
-                <div class="col item"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/SWSH07EvolvingSkies.jpeg"></a></div>
-                <div class="col item"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/SWSH10AstralRadiance.jpeg"></a></div>
-                <div class="col item"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/2021TinofAncientBattles.jpeg"></a></div>
-                <div class="col item"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"><img class="img-fluid" src="assets/img/SWSH09BrilliantStars.jpeg"></a></div>
-            </div>
-        </div>
+        </section>
         <footer class="text-center py-4">
             <div class="container">
                 <div class="row row-cols-1 row-cols-lg-3">
@@ -60,6 +63,7 @@
         </footer>
     </section>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
     <script src="assets/js/Lightbox-Gallery-No-Gutters.js"></script>
 </body>
